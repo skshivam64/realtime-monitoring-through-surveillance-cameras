@@ -2,7 +2,7 @@ Dependencies:
 
 	keras: pip install keras
 	numpy: pip install numpy
-	opencv: pip
+	opencv: pip install opencv-python
 	sklearn: pip install sklearn
 	PIL: pip install Pillow
 	mtcnn: pip install mtcnn
