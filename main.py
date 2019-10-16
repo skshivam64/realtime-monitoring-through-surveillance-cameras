@@ -12,8 +12,10 @@ svc_model = pickle.load(open('models/classifier/model02.sav', 'rb'))
 
 labels = load('labels/class_labels01.npz')['arr_0']
 
+input  = Input()
+
 while(True):
-    cap = cv2.VideoCapture('http://192.168.31.192:8080/video')
+    cap = cv2.VideoCapture(input + '/video') # http://192.168.31.192:8080
     ret, frame = cap.read()
     frame = cv2.cvtColor(frame,cv2.COLOR_BGR2RGB)
     face = extract_face_live(frame)

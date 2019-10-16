@@ -9,6 +9,6 @@ Dependencies:
 
 Run main.py. Enter address of IP camera in the following format, when prompted.
 
-<Protocol>://<IP address>:<Port>
+[Protocol]://[IP address]:[Port]
 
 Ex: http://192.168.31.192:8080
