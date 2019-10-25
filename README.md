@@ -7,6 +7,8 @@ Dependencies:
 	PIL: pip install Pillow
 	mtcnn: pip install mtcnn
 
+	pip install keras numpy opencv-python sklearn Pillow mtcnn
+	
 Run main.py. Enter address of IP camera in the following format, when prompted.
 
 [Protocol]://[IP address]:[Port]
